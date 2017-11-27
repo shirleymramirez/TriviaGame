@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- saved from url=(0100)file:///Users/danlourd.ramirez/Developer/shirley/codingbootcamp/homework/week5/TriviaGame/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Trivia Game</title>
+	<!-- Reset Link -->
+	<link rel="stylesheet" type="text/css" href="./Trivia Game_files/reset.css">
+	<!-- CSS Link -->
+	<link rel="stylesheet" type="text/css" href="./Trivia Game_files/style.css">
+	<!-- Google Font Link -->
+	<link href="./Trivia Game_files/css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+
+		<!-- Header Section -->
+		<div id="header">
+			<h1>Totally Trivia Trivia!</h1>
+		</div>
+
+		<!-- Start button -->
+		<div id="startBtn" style="display: none;">Start</div>
+
+		<!-- Question Section -->
+		<div id="currentQuestion"></div>
+		<div class="question"><h2>The llama is a domesticated camelid that is native to which continent?</h2></div> 
+
+		<!-- Time Section -->
+		<div id="timeLeft"><h3>Time Remaining: 6</h3></div>
+
+		<!-- Answer Section -->
+		<div id="message"></div>
+		<div id="correctedAnswers"></div>	
+		<div id="image"></div>	
+
+		<!-- ScoreBoard Section -->
+		<div id="finalMessage"></div>
+		<div id="correctAnswers"></div>
+		<div id="incorrectAnswers"></div>
+		<div id="unAnswered"></div>
+		<div id="startOverBtn"></div>
+		
+		<!-- Question Buttons/Choice Section -->
+		<div class="choicesList" style="display: block;">
+			<button id="btnA"><span id="choiceA"><div data-index="0" class="thisChoice">A: South America</div></span></button>
+			<button id="btnB"><span id="choiceB"><div data-index="1" class="thisChoice">B: Asia</div></span></button>
+			<button id="btnC"><span id="choiceC"><div data-index="2" class="thisChoice">C: Europe</div></span></button>
+			<button id="btnD"><span id="choiceD"><div data-index="3" class="thisChoice">D: South Africa</div></span></button>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="./Trivia Game_files/jquery-2.2.0.min.js"></script>
+	<script src="./Trivia Game_files/app.js"></script>
+
+</body></html>

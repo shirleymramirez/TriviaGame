@@ -18,21 +18,36 @@
 			<h1>Totally Trivia Trivia!</h1>
 		</div>
 
-		<!-- Time Section -->
-		<div id="timeLeft">Time Remaining: </div>
+		<!-- Start button -->
+		<div id="startBtn">Start</div>
 
 		<!-- Question Section -->
-		<p id="questions"></p> 
+		<div id="currentQuestion"></div>
+		<div class="question"></div> 
 
+		<!-- Time Section -->
+		<div id="timeLeft"></div>
+
+		<!-- Answer Section -->
+		<div id="message"></div>
+		<div id="correctedAnswers"></div>	
+		<div id="image"></div>	
+
+		<!-- ScoreBoard Section -->
+		<div id="finalMessage"></div>
+		<div id="correctAnswers"></div>
+		<div id="incorrectAnswers"></div>
+		<div id="unAnswered"></div>
+		<div id="startOverBtn"></div>
+		
 		<!-- Question Buttons/Choice Section -->
-		<div class="buttons">
+		<div class="choicesList">
 			<button id="btnA"><span id="choiceA"></span></button>
 			<button id="btnB"><span id="choiceB"></span></button>
 			<button id="btnC"><span id="choiceC"></span></button>
 			<button id="btnD"><span id="choiceD"></span></button>
 		</div>
 
-		<div id="results"></div>
 	</div>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 	<script src="./assets/javascript/app.js"></script>
