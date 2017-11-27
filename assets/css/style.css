@@ -97,6 +97,7 @@ h1{
 
 #image {
 	margin: 30px;
+	text-align: center;
 }
 
 #message,
@@ -107,5 +108,7 @@ h1{
 #startOverBtn {
 	font-size: 24px;
 	font-family: 'Sail', cursive;
+	text-align: center;
+	margin-top: 20px;
 }
 
