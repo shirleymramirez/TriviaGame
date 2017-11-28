@@ -170,7 +170,7 @@ $(document).ready(function() {
 		var rightAnswerIndex = myQuestions[currentQuestion].answer;
 
 		//image of the correct answer will appear in the html element
-		$('#image').html('<img src = "assets/images/'+ imageArray[currentQuestion] +'.gif" height="200px" width="200px" >');
+		$('#image').html('<img id = "answerImage" src = "assets/images/'+ imageArray[currentQuestion] +'.gif">');
 		$('.choicesList').hide();
 
 		//checks to see if userSelect is correct
